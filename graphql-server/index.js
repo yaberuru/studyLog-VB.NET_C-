@@ -1,23 +1,11 @@
-const { ApolloServer, gql} = require('apollo-server');
+const { ApolloServer } = require('apollo-server');
+const typeDefs = require('./schema/typeDefs');
+const resolvers = require('./schema/resolvers');
 
-//スキーマ定義
-const typeDefs = gql`
-    type Query {
-        hello: String
-    }
-    `;
+// ApolloServerコンストラクタの作成。スキーマ定義とリゾルバの2つのパラメータを必要としている。
+// 
+const server = new ApolloServer({ typeDefs, resolvers });
 
-//リゾルバ定義
-const resolvers = {
-    Query: {
-        hello: () => 'こんにちは、GraphqQL',
-    },
-};
-
-//Apollo Server インスタンス作成
-const server = new ApolloServer({ typeDefs, resolvers});
-
-//起動
 server.listen().then(({ url }) => {
-    console.log(`🚀 server ready at ${url}`);
+    console.log(`🚀 Server ready at ${url}`);
 });

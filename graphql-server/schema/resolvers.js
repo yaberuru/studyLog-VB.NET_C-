@@ -5,7 +5,7 @@ const resolvers = {
     Query: {
         studyLogs: () => logs,
     },
-    Mutaion: {
+    Mutation: {
         addStudyLog: (_, { title, content, date}) => {
             const newLog = {
                 id: logs.length + 1,
