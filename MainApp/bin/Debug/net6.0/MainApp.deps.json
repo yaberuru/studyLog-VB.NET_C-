@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MainApp/1.0.0": {
+        "dependencies": {
+          "CSharpLib": "1.0.0"
+        },
+        "runtime": {
+          "MainApp.dll": {}
+        }
+      },
+      "CSharpLib/1.0.0": {
+        "runtime": {
+          "CSharpLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MainApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CSharpLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+/Users/hoshisachihaku/MyApp/CSharpLib/obj/Debug/net6.0/CSharpLib.csproj.AssemblyReference.cache
+/Users/hoshisachihaku/MyApp/CSharpLib/obj/Debug/net6.0/CSharpLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hoshisachihaku/MyApp/CSharpLib/obj/Debug/net6.0/CSharpLib.AssemblyInfoInputs.cache
+/Users/hoshisachihaku/MyApp/CSharpLib/obj/Debug/net6.0/CSharpLib.AssemblyInfo.cs
+/Users/hoshisachihaku/MyApp/CSharpLib/obj/Debug/net6.0/CSharpLib.csproj.CoreCompileInputs.cache
+/Users/hoshisachihaku/MyApp/CSharpLib/bin/Debug/net6.0/CSharpLib.deps.json
+/Users/hoshisachihaku/MyApp/CSharpLib/bin/Debug/net6.0/CSharpLib.dll
+/Users/hoshisachihaku/MyApp/CSharpLib/bin/Debug/net6.0/CSharpLib.pdb
+/Users/hoshisachihaku/MyApp/CSharpLib/obj/Debug/net6.0/CSharpLib.dll
+/Users/hoshisachihaku/MyApp/CSharpLib/obj/Debug/net6.0/refint/CSharpLib.dll
+/Users/hoshisachihaku/MyApp/CSharpLib/obj/Debug/net6.0/CSharpLib.pdb
+/Users/hoshisachihaku/MyApp/CSharpLib/obj/Debug/net6.0/ref/CSharpLib.dll
