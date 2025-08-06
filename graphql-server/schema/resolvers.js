@@ -5,4 +5,18 @@ const resolvers = {
     Query: {
         studyLogs: () => logs,
     },
-}
+    Mutaion: {
+        addStudyLog: (_, { title, content, date}) => {
+            const newLog = {
+                id: logs.length + 1,
+                title,
+                content,
+                date,
+            };
+            logs.push(newLog);
+            return newLog;
+        },
+    },
+};
+
+module.exports = resolvers;
